@@ -1,0 +1,262 @@
+
+	body {
+		background-color: white;
+		color: black;
+	}
+    .hoverss{background:grey; 
+    	padding: 8px;
+    	color:white;
+    	border:none;
+    	text-align: right;
+    }
+    .material-icons-outlined {
+    	padding: 10px;
+    }
+    .hover:hover {
+    	background: #f1f3f4;
+    	color: black;
+
+    	border-radius: 50%;
+    	cursor: pointer;
+    }
+    .hoverss:hover {
+    	border:none;
+    	background-color:teal;
+    	color: white;
+    	padding: 14px;
+    	cursor: pointer;
+    }
+
+    .tooltip {
+    	position: relative;
+    }
+    .tooltip-text {
+    	position: absolute;
+    	left: 0;
+    	top: 100%;
+    	font-size: 0.78rem;
+    	background-color: #323232;
+    	color: white;
+    	opacity: 0.8;
+    	padding: 5px;
+    	white-space: nowrap;
+    	border-radius: 5px;
+    	visibility: hidden;
+    	z-index: 1;
+    }
+    .tooltip:hover .tooltip-text {
+    	visibility: visible;
+    }
+
+    .search-area {
+    	outline: none;
+    	border: 1px solid #ccc;
+    	background:white;
+    	width: 630px;
+    	height: 48px;
+    	border-radius:100px;
+    	display: flex;
+    	align-items: center;
+    	margin-right: 20rem;
+    	box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+
+    }
+    .search-area input {
+    	border: none;
+    	background:white;
+    	height: 100%;
+    	width: 100%;
+
+    	font-size: 1rem;
+    	margin-left: 20px;
+    }
+    input:focus {
+    	outline: none;
+    }
+    .search-area span {
+    	margin-left: 10px;
+    }
+
+    .settings-area {
+    	display: flex;
+    }
+
+    .profile-actions-area {
+    	display: flex;
+    }
+    .hovers{
+    	border-radius:100px;
+    	width: 100px;
+    }
+    .hovers:hover{
+    	background-color: #008CBA;
+    	color: white;
+    	width: 100px;
+    	font-weight: bolder;
+    	border-radius: 10px;
+    	padding: 15px;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+
+    	cursor: pointer;
+    }
+
+
+
+    .dark-mode {
+    	background-color: black;
+    	color: white;
+    }
+     .dark-mode ul li a{
+    	background-color: black;
+    	color: white;
+    }
+    
+    *{
+    	padding: 0;
+    	margin: 0;
+    	box-sizing: border-box;
+    	font-family: arial;
+    }
+    .container{
+    	position: relative;
+    	width: 100%;
+    	/*margin: auto;*/
+    	min-height: 100vh;
+    	padding: 270px;
+    }
+    header{
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    }
+    header ul{
+    	list-style: none;
+    	margin-right: 20px;
+
+}
+header ul li{
+	float: left;
+	margin: 30px 15px 0px 0px;
+}
+header ul li a{
+	color: #111;
+	text-decoration: none;
+	font-size: 14px;
+}
+header ul li button{
+	background: #4584ef;
+	border: none;
+	outline: none;
+	padding: 8px 13px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: -10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.main{
+	width: 620px;
+	text-align: center;
+	margin: auto;
+}
+.main .searchbox{
+	position: relative;
+	width: 100%;
+	margin-top: 25px;
+}
+.main .searchbox .searchbar{
+	width: 100%;
+	padding: 16px;
+	padding-left: 45px;
+	padding-right: 60px;
+	border-radius: 30px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.main .searchbox .searchbar:focus{
+	box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+}
+.main .searchbox .icons{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 12px 20px;
+	pointer-events: none;
+}
+.buttons{
+	margin: 10px 0px;
+}
+.main button{
+	background-color: #f8f9fa;
+	border: 1px solid #f8f9fa;
+	border-radius: 4px;
+	font-family: arial,sans-serif;
+	font-size: 16px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	color: #202124;
+	user-select: none;
+}
+ .micimg{
+	float:right;
+}
+
+.lang li {
+	list-style: none;
+	float: left;
+	margin-right: 13px;
+	margin-top: 10px;
+	list-style: none;
+}
+.lang li a{
+	color: #1a0dab;
+	text-decoration: none;
+}
+.lang li a:hover{
+	text-decoration: underline;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #f2f2f2;
+}
+.footer .row{
+	padding: 15px 25px;
+	border-top: 1px solid rgba(0,0,0,0.05);
+}
+.footer .row2 ul li{
+	float: left;
+	list-style: none;
+
+}
+.footer .row2 ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #5f6368;
+	margin-right: 15px;
+}
+.abcd:hover{
+	background: #f1f3f4;
+	color: black;
+	border-radius: 10px;
+	padding: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	cursor: pointer;
+}
+img{
+	cursor: pointer;
+}
